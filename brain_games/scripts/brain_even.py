@@ -29,6 +29,9 @@ def even_or_not(name):
             else:
                 print("'no' is wrong answer ;(. Correct answer was 'yes'")
                 break
+        else:
+            print("Is not correct answer ;(")
+            break
 
     if count_correct == 3:
         print(f"Congratulations, {name}")

@@ -1,2 +1,1 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/SunBro322/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/SunBro322/python-project-49/actions)
+how to install app and start to play  https://asciinema.org/a/qerTrmh4W3glqwz6WKtR2Clnu -
