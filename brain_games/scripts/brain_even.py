@@ -34,7 +34,7 @@ def even_or_not(name):
             break
 
     if count_correct == 3:
-        print(f"Congratulations, {name}")
+        print(f"Congratulations, {name}!")
 
 
 def main():

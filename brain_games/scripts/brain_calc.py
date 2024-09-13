@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 import random
 from brain_games import cli
+
+
 def hello():
     print("Welcome to the Brain Games!")
+
 
 def calc(name):
     count_correct = 0
@@ -34,8 +37,7 @@ def calc(name):
             break
 
         if count_correct == 3:
-            print(f"Congratulations, {name}")
-
+            print(f"Congratulations, {name}!")
 
 
 def main():

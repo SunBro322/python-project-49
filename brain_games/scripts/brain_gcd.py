@@ -6,6 +6,7 @@ from brain_games import cli
 def hello():
     print("Welcome to the Brain Games!")
 
+
 def nod(name):
     count_correct = 0
     print("Find the greatest common divisor of given numbers.")
@@ -26,11 +27,7 @@ def nod(name):
             break
 
         if count_correct == 3:
-            print(f"Congratulations, {name}")
-
-
-
-
+            print(f"Congratulations, {name}!")
 
 
 def main():
