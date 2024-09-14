@@ -11,11 +11,14 @@ def simple_val_or_not(name):
     count_correct = 0
     simple_or_not = ''
 
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
+    print('Answer "yes" if given number is prime. '
+          'Otherwise answer "no".')
     while count_correct < 3:
         value = random.randint(1, 101)
 
-        if value > 3 and (value % 2 != 0 and value % 3 != 0 and value % 5 != 0 and value % 7 != 0):
+        if value > 3 and (value % 2 != 0 and value % 3 != 0
+                          and value % 5 != 0
+                          and value % 7 != 0):
             simple_or_not = 'yes'
         else:
             simple_or_not = 'no'
@@ -25,7 +28,9 @@ def simple_val_or_not(name):
             print("Correct!")
             count_correct += 1
         else:
-            print(f"'{get_answer}' is wrong answer ;(. Correct answer was '{simple_or_not}'. \nLet's try again, {name}!")
+            print(f"'{get_answer}' is wrong answer ;(. "
+                  f"Correct answer was '{simple_or_not}'.")
+            print(f"Let's try again, {name}!")
             break
 
         if count_correct == 3:

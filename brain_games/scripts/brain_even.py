@@ -9,7 +9,8 @@ def hello():
 
 def even_or_not(name):
     count_correct = 0
-    print('Answer "yes" if the number is even, otherwise answer "no".')
+    print('Answer "yes" if the number is even, '
+          'otherwise answer "no".')
 
     while count_correct < 3:
         random_value = random.randint(1, 100)
@@ -20,7 +21,8 @@ def even_or_not(name):
                 count_correct += 1
                 print('Correct')
             else:
-                print('"yes" is wrong answer ;(. Correct answer was "no" .')
+                print('"yes" is wrong answer ;(. '
+                      'Correct answer was "no" .')
                 print(f"Let's try again, {name}!")
                 break
         elif get_answer == 'no':
@@ -28,7 +30,8 @@ def even_or_not(name):
                 count_correct += 1
                 print('Correct')
             else:
-                print('"no" is wrong answer ;(. Correct answer was "yes"')
+                print('"no" is wrong answer ;(. '
+                      'Correct answer was "yes"')
                 print(f"Let's try again, {name}!")
                 break
         else:
