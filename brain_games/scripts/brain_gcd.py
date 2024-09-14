@@ -23,7 +23,7 @@ def nod(name):
             print("Correct!")
             count_correct += 1
         else:
-            print(f"{get_answer}' is wrong answer ;(. Correct answer was '{result}'. \nLet's try again, {name}!")
+            print(f"'{get_answer}' is wrong answer ;(. Correct answer was '{result}'. \nLet's try again, {name}!")
             break
 
         if count_correct == 3:
