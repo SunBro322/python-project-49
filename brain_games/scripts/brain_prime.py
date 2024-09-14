@@ -11,7 +11,7 @@ def simple_val_or_not(name):
     count_correct = 0
     simple_or_not = ''
 
-    print('Answer "yes" if given number is prime. Otherwise answer "no"')
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     while count_correct < 3:
         value = random.randint(1, 101)
 
