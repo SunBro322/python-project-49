@@ -33,7 +33,7 @@ def progression(name):
         str_result[str_result.index(get_value)] = '..'
         str_result = ' '.join(map(str, str_result))
 
-        print(str_result)
+        print(f"Question: {str_result}")
 
         get_answer = str(input("Your answer: "))
         if get_answer == str(get_value):
