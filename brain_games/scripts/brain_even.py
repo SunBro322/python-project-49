@@ -29,6 +29,7 @@ def even_or_not(name):
                 print('Correct')
             else:
                 print('"no" is wrong answer ;(. Correct answer was "yes"')
+                print(f"Let's try again, {name}!")
                 break
         else:
             print("Is not correct answer ;(")
