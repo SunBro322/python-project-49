@@ -20,7 +20,8 @@ def even_or_not(name):
                 count_correct += 1
                 print('Correct')
             else:
-                print('"yes" is wrong answer ;(. Correct answer was "no"')
+                print('"yes" is wrong answer ;(. Correct answer was "no" .')
+                print(f"Let's try again, {name}!")
                 break
         elif get_answer == 'no':
             if random_value % 2 != 0:
