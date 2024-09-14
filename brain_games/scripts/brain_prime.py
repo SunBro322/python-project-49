@@ -16,7 +16,8 @@ def simple_val_or_not(name):
     while count_correct < 3:
         value = random.randint(1, 101)
 
-        if value > 3 and (value % 2 != 0 and value % 3 != 0
+        if value > 3 and (value % 2 != 0
+                          and value % 3 != 0
                           and value % 5 != 0
                           and value % 7 != 0):
             simple_or_not = 'yes'
