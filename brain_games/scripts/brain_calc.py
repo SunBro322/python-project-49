@@ -24,7 +24,7 @@ def calc(name):
         elif random_symbol_for_task == '-':
             print(f"Question: {first_value} - {second_value}")
             result = first_value - second_value
-        elif random_symbol_for_task == '*':
+        else:
             print(f"Question: {first_value} * {second_value}")
             result = first_value * second_value
 
@@ -38,8 +38,8 @@ def calc(name):
             print(f"Let's try again, {name}!")
             break
 
-        if count_correct == 3:
-            print(f"Congratulations, {name}!")
+    if count_correct == 3:
+        print(f"Congratulations, {name}!")
 
 
 def main():

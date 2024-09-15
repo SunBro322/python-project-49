@@ -22,7 +22,7 @@ def progression(name):
         step_value = random.randint(1, 5)
         if 1 <= step_value <= 2:
             compare_val = 10
-        elif 3 <= step_value <= 5:
+        else:
             compare_val = 30
 
         start_value = random.randint(0, 20)
@@ -45,8 +45,8 @@ def progression(name):
             print(f"Let's try again, {name}!")
             break
 
-        if count_correct == 3:
-            print(f"Congratulations, {name}!")
+    if count_correct == 3:
+        print(f"Congratulations, {name}!")
 
 
 def main():

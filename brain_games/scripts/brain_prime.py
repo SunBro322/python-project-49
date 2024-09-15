@@ -24,6 +24,7 @@ def simple_val_or_not(name):
         else:
             simple_or_not = 'no'
         print(f"Question: {value}")
+
         get_answer = str(input("Your answer: "))
         if get_answer == simple_or_not:
             print("Correct!")
@@ -34,8 +35,8 @@ def simple_val_or_not(name):
             print(f"Let's try again, {name}!")
             break
 
-        if count_correct == 3:
-            print(f"Congratulations, {name}!")
+    if count_correct == 3:
+        print(f"Congratulations, {name}!")
 
 
 def main():

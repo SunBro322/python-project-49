@@ -14,28 +14,23 @@ def even_or_not(name):
 
     while count_correct < 3:
         random_value = random.randint(1, 100)
+        even_or = ''
+
+        if random_value % 2 == 0:
+            even_or = 'yes'
+        else:
+            even_or = 'no'
+
         print(f'Question: {random_value}')
         get_answer = str(input('Your answer: '))
-        if get_answer == 'yes':
-            if random_value % 2 == 0:
-                count_correct += 1
-                print('Correct')
-            else:
-                print('"yes" is wrong answer ;(. '
-                      'Correct answer was "no" .')
-                print(f"Let's try again, {name}!")
-                break
-        elif get_answer == 'no':
-            if random_value % 2 != 0:
-                count_correct += 1
-                print('Correct')
-            else:
-                print('"no" is wrong answer ;(. '
-                      'Correct answer was "yes"')
-                print(f"Let's try again, {name}!")
-                break
+
+        if get_answer == even_or:
+            print("Correct!")
+            count_correct += 1
         else:
-            print("Is not correct answer ;(")
+            print(f"'{get_answer}' is wrong answer ;(. "
+                  f"Correct answer was '{even_or}'.")
+            print(f"Let's try again, {name}!")
             break
 
     if count_correct == 3:

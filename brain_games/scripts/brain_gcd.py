@@ -29,8 +29,8 @@ def nod(name):
             print(f"Let's try again, {name}!")
             break
 
-        if count_correct == 3:
-            print(f"Congratulations, {name}!")
+    if count_correct == 3:
+        print(f"Congratulations, {name}!")
 
 
 def main():
