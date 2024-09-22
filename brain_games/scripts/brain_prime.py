@@ -17,6 +17,9 @@ def simple_val_or_not(name):
         value = random.randint(1, 101)
         print(f"Question: {value}")
 
+        if value == (2 or 3 or 5 or 7):
+            simple_or_not = 'no'
+
         if value > 3 and (value % 2 != 0
                           and value % 3 != 0
                           and value % 5 != 0
