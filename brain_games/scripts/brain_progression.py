@@ -9,7 +9,9 @@ def hello():
 
 
 def progression(name):
+
     print("What number is missing in the progression?")
+
     def progress():
         prog_result = []
         for i in range(1, 100):
@@ -38,8 +40,6 @@ def progression(name):
         return get_answer, str(get_value)
 
     pattern_for_games.pattern(progress, name)
-
-
 
 
 def main():

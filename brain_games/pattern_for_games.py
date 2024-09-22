@@ -1,4 +1,4 @@
-#Паттерн для скриптов
+# Паттерн для скриптов
 def pattern(func, name):
     counter = 0
     while counter < 3:
