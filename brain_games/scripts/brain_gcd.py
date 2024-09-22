@@ -2,6 +2,7 @@
 import random
 import math
 from brain_games import cli
+from brain_games import pattern_for_games
 
 
 def hello():
@@ -9,10 +10,9 @@ def hello():
 
 
 def nod(name):
-    count_correct = 0
     print("Find the greatest common divisor of given numbers.")
 
-    while count_correct < 3:
+    def gcd():
         result = 0
         first_value = random.randint(0, 100)
         second_value = random.randint(0, 100)
@@ -20,17 +20,9 @@ def nod(name):
         print(f"Question: {first_value} {second_value}")
         get_answer = str(input("Your answer: "))
 
-        if get_answer == str(result):
-            print("Correct!")
-            count_correct += 1
-        else:
-            print(f"'{get_answer}' is wrong answer ;(. "
-                  f"Correct answer was '{result}'.")
-            print(f"Let's try again, {name}!")
-            break
+        return get_answer, str(result)
 
-    if count_correct == 3:
-        print(f"Congratulations, {name}!")
+    pattern_for_games.pattern(gcd, name)
 
 
 def main():

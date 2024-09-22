@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import random
 from brain_games import cli
+from brain_games import pattern_for_games
 
 
 def hello():
@@ -8,10 +9,9 @@ def hello():
 
 
 def calc(name):
-    count_correct = 0
-
     print("What is the result of the expression?")
-    while count_correct < 3:
+
+    def calculate():
         result = 0
         match_symbol = ['+', '-', '*']
         random_symbol_for_task = match_symbol[random.randint(0, 2)]
@@ -29,17 +29,9 @@ def calc(name):
             result = first_value * second_value
 
         get_answer = str(input("Your answer: "))
-        if get_answer == str(result):
-            print("Correct!")
-            count_correct += 1
-        else:
-            print(f"'{get_answer}' is wrong answer ;(. "
-                  f"Correct answer was '{result}'.")
-            print(f"Let's try again, {name}!")
-            break
+        return get_answer, str(result)
 
-    if count_correct == 3:
-        print(f"Congratulations, {name}!")
+    pattern_for_games.pattern(calculate, name)
 
 
 def main():
