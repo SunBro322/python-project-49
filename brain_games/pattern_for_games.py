@@ -17,4 +17,3 @@ def pattern(func):
             break
     else:
         print(f"Congratulations, {name}!")
-
