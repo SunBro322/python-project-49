@@ -1,7 +1,7 @@
 import random
 
 
-def is_prime():
+def logic_for_game():
     description_game = ('Answer "yes" if given number is prime. '
                         'Otherwise answer "no".')
     print(description_game)

@@ -8,12 +8,12 @@ def pattern(func):
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     for i in range(how_many_try):
-        a = func()
-        if a[0] == a[1]:
+        answer, result = func.logic_for_game()
+        if answer == result:
             print("Correct!")
         else:
-            print(f"'{a[0]}' is wrong answer ;(. "
-                  f"Correct answer was '{a[1]}'.")
+            print(f"'{answer}' is wrong answer ;(. "
+                  f"Correct answer was '{result}'.")
             print(f"Let's try again, {name}!")
             break
     else:

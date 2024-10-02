@@ -4,7 +4,7 @@ from brain_games.games import gcd
 
 
 def main():
-    pattern_for_games.pattern(gcd.gcd)
+    pattern_for_games.pattern(gcd)
 
 
 if __name__ == 'main':

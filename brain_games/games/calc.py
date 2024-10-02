@@ -1,7 +1,7 @@
 import random
 
 
-def calculate():
+def logic_for_game():
     description_game = "What is the result of the expression?"
     print(description_game)
     result = 0

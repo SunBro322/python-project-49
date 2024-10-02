@@ -1,7 +1,7 @@
 import random
 
 
-def progress():
+def logic_for_game():
     description_game = "What number is missing in the progression?"
     print(description_game)
     prog_result = []

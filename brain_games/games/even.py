@@ -1,7 +1,7 @@
 import random
 
 
-def even():
+def logic_for_game():
     description_game = ('Answer "yes" if the number is even, '
                         'otherwise answer "no".')
     print(description_game)
