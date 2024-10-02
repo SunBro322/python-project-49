@@ -1,8 +1,8 @@
-
 /shelf/
 /workspace.xml
 /ispectionProfiles/
 dist/
 /.idea/
 /__pycache__/
+__pycache__/
 *.cast
