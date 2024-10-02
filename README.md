@@ -1,5 +1,20 @@
-how to start to play app brain-even https://asciinema.org/a/qerTrmh4W3glqwz6WKtR2Clnu
-how to start to play app brain-calc https://asciinema.org/a/LGWoeur1I11bKgxeI0lmFet3b
-how to start to play app brain-gcd https://asciinema.org/a/mGihhU7WLeDlu8NGG91KiVCtu
-how to start to play app brain-progression https://asciinema.org/a/135MEKiGpSnb4xZaFrU3wc6Up
-how to start to play app brain-prime https://asciinema.org/a/k6cujZ7oLiDtQCx28hSrYUhFG
+Репозиторий предстовляет собой проект с пятью играми.
+Вы можете выбрать любую из них и поиграть.
+Доступны следующие игры:
+- Brain-even - В этой игре игроку требуется ответить четное число или нет
+- Brain-calc - В этой игре пользователю требуется решить простой математический пример
+- Brain-gcd - В этой игре дается два числа и игроку требуется дать общий делитель для двух чисел
+- Brain-progression - В этой игре игроку требуется дать ответ какое число в прогрессий пропушенно
+- Barin-prime - В этой игре игроку требуется оветить простое число предлагает игра или нет
+
+Как начать играть в brain-even <embed src="https://asciinema.org/a/qerTrmh4W3glqwz6WKtR2Clnu">
+Как начать играть в brain-calc <embed src="https://asciinema.org/a/LGWoeur1I11bKgxeI0lmFet3b">
+Как начать играть в brain-gcd <embed src="https://asciinema.org/a/mGihhU7WLeDlu8NGG91KiVCtu">
+Как начать играть в brain-progression <embed src="https://asciinema.org/a/135MEKiGpSnb4xZaFrU3wc6Up">
+Как начать играть в brain-prime <embed src="https://asciinema.org/a/k6cujZ7oLiDtQCx28hSrYUhFG">
+
+
+
+Ссылка на баджи от codeclimate
+<a href="https://codeclimate.com/github/SunBro322/python-project-49/maintainability">
+<img src="https://api.codeclimate.com/v1/badges/2fab7ad58c023c4002c3/maintainability" /></a>
