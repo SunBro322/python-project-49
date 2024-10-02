@@ -3,7 +3,8 @@ import math
 
 
 def gcd():
-    print("Find the greatest common divisor of given numbers.")
+    description_game = "Find the greatest common divisor of given numbers."
+    print(description_game)
     result = 0
     first_value = random.randint(0, 100)
     second_value = random.randint(0, 100)

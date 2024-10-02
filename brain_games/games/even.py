@@ -2,8 +2,9 @@ import random
 
 
 def even():
-    print('Answer "yes" if the number is even, '
-          'otherwise answer "no".')
+    description_game = ('Answer "yes" if the number is even, '
+                        'otherwise answer "no".')
+    print(description_game)
     random_value = random.randint(1, 100)
     even_or = ''
     if random_value % 2 == 0:

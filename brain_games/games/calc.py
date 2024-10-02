@@ -2,7 +2,8 @@ import random
 
 
 def calculate():
-    print("What is the result of the expression?")
+    description_game = "What is the result of the expression?"
+    print(description_game)
     result = 0
     match_symbol = ['+', '-', '*']
     random_symbol_for_task = match_symbol[random.randint(0, 2)]

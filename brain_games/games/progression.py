@@ -2,7 +2,8 @@ import random
 
 
 def progress():
-    print("What number is missing in the progression?")
+    description_game = "What number is missing in the progression?"
+    print(description_game)
     prog_result = []
     for i in range(1, 100):
         prog_result.append(i)

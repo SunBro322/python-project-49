@@ -2,8 +2,9 @@ import random
 
 
 def is_prime():
-    print('Answer "yes" if given number is prime. '
-          'Otherwise answer "no".')
+    description_game = ('Answer "yes" if given number is prime. '
+                        'Otherwise answer "no".')
+    print(description_game)
     simple_or_not = ''
     value = random.randint(1, 101)
     print(f"Question: {value}")
