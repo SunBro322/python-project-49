@@ -1,31 +1,31 @@
 import random
 
 
-def logic_for_game():
+def performs_game():
     description_game = "What number is missing in the progression?"
     print(description_game)
-    prog_result = []
+    array_of_values = []
     for i in range(1, 100):
-        prog_result.append(i)
+        array_of_values.append(i)
 
-    compare_val = 0
-    get_value = 0
+    value_for_slice = 0
+    invisible_value = 0
 
     step_value = random.randint(1, 5)
     if 1 <= step_value <= 2:
-        compare_val = 10
+        value_for_slice = 10
     else:
-        compare_val = 30
+        value_for_slice = 30
 
     start_value = random.randint(0, 20)
-    finish_value = start_value + compare_val
+    finish_value = start_value + value_for_slice
 
-    str_result = prog_result[start_value:finish_value:step_value]
-    get_value = str_result[random.randint(0, len(str_result) - 1)]
-    str_result[str_result.index(get_value)] = '..'
-    str_result = ' '.join(map(str, str_result))
+    slice_of_values = array_of_values[start_value:finish_value:step_value]
+    invisible_value = slice_of_values[random.randint(0, len(slice_of_values) - 1)]
+    slice_of_values[slice_of_values.index(invisible_value)] = '..'
+    result = ' '.join(map(str, slice_of_values))
 
-    print(f"Question: {str_result}")
-    get_answer = str(input("Your answer: "))
+    print(f"Question: {result}")
+    user_response = str(input("Your answer: "))
 
-    return get_answer, str(get_value)
+    return user_response, str(invisible_value)

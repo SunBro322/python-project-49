@@ -1,23 +1,23 @@
 import random
 
 
-def logic_for_game():
+def performs_game():
     description_game = ('Answer "yes" if given number is prime. '
                         'Otherwise answer "no".')
     print(description_game)
-    simple_or_not = ''
+    result = ''
     value = random.randint(1, 101)
     print(f"Question: {value}")
 
     if value == (2 or 3 or 5 or 7):
-        simple_or_not = 'no'
+        result = 'no'
     elif value > 3 and (value % 2 != 0
                         and value % 3 != 0
                         and value % 5 != 0
                         and value % 7 != 0):
-        simple_or_not = 'yes'
+        result = 'yes'
     else:
-        simple_or_not = 'no'
+        result = 'no'
 
-    get_answer = str(input("Your answer: "))
-    return get_answer, str(simple_or_not)
+    user_response = str(input("Your answer: "))
+    return user_response, str(result)

@@ -2,7 +2,7 @@ import random
 import math
 
 
-def logic_for_game():
+def performs_game():
     description_game = "Find the greatest common divisor of given numbers."
     print(description_game)
     result = 0
@@ -10,6 +10,6 @@ def logic_for_game():
     second_value = random.randint(0, 100)
     result = math.gcd(first_value, second_value)
     print(f"Question: {first_value} {second_value}")
-    get_answer = str(input("Your answer: "))
+    user_response = str(input("Your answer: "))
 
-    return get_answer, str(result)
+    return user_response, str(result)

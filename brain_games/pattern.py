@@ -2,13 +2,13 @@
 import prompt
 
 
-def pattern(func):
+def cheking_answer(func):
     how_many_try = 3
     print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     for i in range(how_many_try):
-        answer, result = func.logic_for_game()
+        answer, result = func.performs_game()
         if answer == result:
             print("Correct!")
         else:
