@@ -2,8 +2,8 @@ import random
 
 
 def performs_game():
-    description_game = "What number is missing in the progression?"
-    print(description_game)
+    description_game = ("What number is missing in the "
+                        "progression?")
     array_of_values = []
     for i in range(1, 100):
         array_of_values.append(i)
@@ -21,11 +21,11 @@ def performs_game():
     finish_value = start_value + value_for_slice
 
     slice_of_values = array_of_values[start_value:finish_value:step_value]
-    invisible_value = slice_of_values[random.randint(0, len(slice_of_values) - 1)]
+    invisible_value = slice_of_values[random.randint(0,
+                                                     len(slice_of_values) - 1)]
     slice_of_values[slice_of_values.index(invisible_value)] = '..'
     result = ' '.join(map(str, slice_of_values))
 
-    print(f"Question: {result}")
-    user_response = str(input("Your answer: "))
+    question_for_gamers = f"Question: {result}"
 
-    return user_response, str(invisible_value)
+    return description_game, question_for_gamers, str(invisible_value)

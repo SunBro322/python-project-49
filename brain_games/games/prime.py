@@ -4,10 +4,9 @@ import random
 def performs_game():
     description_game = ('Answer "yes" if given number is prime. '
                         'Otherwise answer "no".')
-    print(description_game)
     result = ''
     value = random.randint(1, 101)
-    print(f"Question: {value}")
+    question_for_gamers = f"Question: {value}"
 
     if value == (2 or 3 or 5 or 7):
         result = 'no'
@@ -19,5 +18,4 @@ def performs_game():
     else:
         result = 'no'
 
-    user_response = str(input("Your answer: "))
-    return user_response, str(result)
+    return description_game, question_for_gamers, str(result)

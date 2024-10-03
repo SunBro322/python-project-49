@@ -7,8 +7,12 @@ def cheking_answer(func):
     print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
+    description, _, _ = func.performs_game()
+    print(description)
     for i in range(how_many_try):
-        answer, result = func.performs_game()
+        _, question, result = func.performs_game()
+        print(question)
+        answer = str(input("Your answer: "))
         if answer == result:
             print("Correct!")
         else:
