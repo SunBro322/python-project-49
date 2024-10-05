@@ -1,3 +1,8 @@
+Ссылка на баджи от codeclimate
+<a href="https://codeclimate.com/github/SunBro322/python-project-49/maintainability">
+<img src="https://api.codeclimate.com/v1/badges/2fab7ad58c023c4002c3/maintainability" /></a>
+
+
 Репозиторий предстовляет собой проект с пятью играми.
 Вы можете выбрать любую из них и поиграть.
 Доступны следующие игры:
@@ -15,6 +20,3 @@
 
 
 
-Ссылка на баджи от codeclimate
-<a href="https://codeclimate.com/github/SunBro322/python-project-49/maintainability">
-<img src="https://api.codeclimate.com/v1/badges/2fab7ad58c023c4002c3/maintainability" /></a>
