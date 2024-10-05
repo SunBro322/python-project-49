@@ -7,11 +7,11 @@
 - Brain-progression - В этой игре игроку требуется дать ответ какое число в прогрессий пропушенно
 - Barin-prime - В этой игре игроку требуется оветить простое число предлагает игра или нет
 
-Как начать играть в brain-even <script src="https://asciinema.org/a/qerTrmh4W3glqwz6WKtR2Clnu" async></script>
-Как начать играть в brain-calc <script src="https://asciinema.org/a/LGWoeur1I11bKgxeI0lmFet3b" async></script>
-Как начать играть в brain-gcd <script src="https://asciinema.org/a/mGihhU7WLeDlu8NGG91KiVCtu" async></script>
-Как начать играть в brain-progression <script src="https://asciinema.org/a/135MEKiGpSnb4xZaFrU3wc6Up" async></script>
-Как начать играть в brain-prime <script src="https://asciinema.org/a/k6cujZ7oLiDtQCx28hSrYUhFG" async></script>
+Как начать играть в brain-even <a href="https://asciinema.org/a/qerTrmh4W3glqwz6WKtR2Clnu" target="_blank"><img src="https://asciinema.org/a/qerTrmh4W3glqwz6WKtR2Clnu.svg" /></a>
+Как начать играть в brain-calc <a href="https://asciinema.org/a/LGWoeur1I11bKgxeI0lmFet3b" target="_blank"><img src="https://asciinema.org/a/LGWoeur1I11bKgxeI0lmFet3b.svg" /></a>
+Как начать играть в brain-gcd <a href="https://asciinema.org/a/mGihhU7WLeDlu8NGG91KiVCtu" target="_blank"><img src="https://asciinema.org/a/mGihhU7WLeDlu8NGG91KiVCtu.svg" /></a>
+Как начать играть в brain-progression <a href="https://asciinema.org/a/135MEKiGpSnb4xZaFrU3wc6Up" target="_blank"><img src="https://asciinema.org/a/135MEKiGpSnb4xZaFrU3wc6Up.svg" /></a>
+Как начать играть в brain-prime <a href="https://asciinema.org/a/k6cujZ7oLiDtQCx28hSrYUhFG" target="_blank"><img src="https://asciinema.org/a/k6cujZ7oLiDtQCx28hSrYUhFG.svg" /></a>
 
 
 
