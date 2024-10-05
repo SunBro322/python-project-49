@@ -3,7 +3,7 @@ import random
 
 def generate_round_data():
     DESCRIPTION = ('Answer "yes" if the number is even, '
-                        'otherwise answer "no".')
+                   'otherwise answer "no".')
     random_value = random.randint(1, 100)
     result = ''
     if random_value % 2 == 0:
