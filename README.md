@@ -7,11 +7,11 @@
 - Brain-progression - В этой игре игроку требуется дать ответ какое число в прогрессий пропушенно
 - Barin-prime - В этой игре игроку требуется оветить простое число предлагает игра или нет
 
-Как начать играть в brain-even "https://asciinema.org/a/qerTrmh4W3glqwz6WKtR2Clnu"
-Как начать играть в brain-calc "https://asciinema.org/a/LGWoeur1I11bKgxeI0lmFet3b"
-Как начать играть в brain-gcd "https://asciinema.org/a/mGihhU7WLeDlu8NGG91KiVCtu"
-Как начать играть в brain-progression "https://asciinema.org/a/135MEKiGpSnb4xZaFrU3wc6Up"
-Как начать играть в brain-prime "https://asciinema.org/a/k6cujZ7oLiDtQCx28hSrYUhFG"
+Как начать играть в brain-even <script src="https://asciinema.org/a/qerTrmh4W3glqwz6WKtR2Clnu" async></script>
+Как начать играть в brain-calc <script src="https://asciinema.org/a/LGWoeur1I11bKgxeI0lmFet3b" async></script>
+Как начать играть в brain-gcd <script src="https://asciinema.org/a/mGihhU7WLeDlu8NGG91KiVCtu" async></script>
+Как начать играть в brain-progression <script src="https://asciinema.org/a/135MEKiGpSnb4xZaFrU3wc6Up" async></script>
+Как начать играть в brain-prime <script src="https://asciinema.org/a/k6cujZ7oLiDtQCx28hSrYUhFG" async></script>
 
 
 
