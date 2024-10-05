@@ -1,9 +1,9 @@
 import random
 
 
-def performs_game():
-    description_game = ("What number is missing in the "
-                        "progression?")
+def generate_round_data():
+    DESCRIPTION = ("What number is missing in the "
+                   "progression?")
     array_of_values = []
     for i in range(1, 100):
         array_of_values.append(i)
@@ -26,6 +26,6 @@ def performs_game():
     slice_of_values[slice_of_values.index(invisible_value)] = '..'
     result = ' '.join(map(str, slice_of_values))
 
-    question_for_gamers = f"Question: {result}"
+    question_for_gamers = result
 
-    return description_game, question_for_gamers, str(invisible_value)
+    return DESCRIPTION, question_for_gamers, str(invisible_value)

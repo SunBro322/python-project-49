@@ -4,7 +4,7 @@ from brain_games.games import gcd
 
 
 def main():
-    pattern.cheking_answer(gcd)
+    pattern.run(gcd)
 
 
 if __name__ == 'main':

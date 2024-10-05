@@ -1,8 +1,8 @@
 import random
 
 
-def performs_game():
-    description_game = ('Answer "yes" if the number is even, '
+def generate_round_data():
+    DESCRIPTION = ('Answer "yes" if the number is even, '
                         'otherwise answer "no".')
     random_value = random.randint(1, 100)
     result = ''
@@ -11,5 +11,5 @@ def performs_game():
     else:
         result = 'no'
 
-    question_for_gamers = f'Question: {random_value}'
-    return description_game, question_for_gamers, result
+    question_for_gamers = random_value
+    return DESCRIPTION, question_for_gamers, result

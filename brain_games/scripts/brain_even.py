@@ -4,7 +4,7 @@ from brain_games.games import even
 
 
 def main():
-    pattern.cheking_answer(even)
+    pattern.run(even)
 
 
 if __name__ == 'main':

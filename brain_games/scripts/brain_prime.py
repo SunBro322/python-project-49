@@ -4,7 +4,7 @@ from brain_games.games import prime
 
 
 def main():
-    pattern.cheking_answer(prime)
+    pattern.run(prime)
 
 
 if __name__ == 'main':
