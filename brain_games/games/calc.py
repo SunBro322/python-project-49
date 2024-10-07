@@ -1,8 +1,9 @@
 import random
+from brain_games import constant
 
 
 def generate_round_data():
-    DESCRIPTION = "What is the result of the expression?"
+    DESCRIPTION = constant.DESCRIPTION_CALC
     result = 0
     suitable_symbol = ['+', '-', '*']
     random_suitable_symbol = suitable_symbol[random.randint(0, 2)]

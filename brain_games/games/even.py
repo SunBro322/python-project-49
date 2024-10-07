@@ -1,9 +1,9 @@
 import random
+from brain_games import constant
 
 
 def generate_round_data():
-    DESCRIPTION = ('Answer "yes" if the number is even, '
-                   'otherwise answer "no".')
+    DESCRIPTION = constant.DESCRIPTION_EVEN
     random_value = random.randint(1, 100)
     result = ''
     if random_value % 2 == 0:

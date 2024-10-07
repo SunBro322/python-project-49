@@ -1,9 +1,9 @@
 import random
+from brain_games import constant
 
 
 def generate_round_data():
-    DESCRIPTION = ("What number is missing in the "
-                   "progression?")
+    DESCRIPTION = constant.DESCRIPTION_PROGRESSION
     array_of_values = []
     for i in range(1, 100):
         array_of_values.append(i)
