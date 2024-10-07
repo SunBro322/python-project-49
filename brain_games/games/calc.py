@@ -16,7 +16,7 @@ def generate_round_data():
         result = first_value + second_value
     elif random_suitable_symbol == '-':
         result = first_value - second_value
-    else:
+    elif random_suitable_symbol == '*':
         result = first_value * second_value
 
     return DESCRIPTION, question_for_gamers, str(result)
