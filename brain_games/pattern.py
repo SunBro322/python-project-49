@@ -7,10 +7,10 @@ def run(game):
     print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    description, _, _ = game.generate_round_data()
-    print(description)
+    game.generate_round_data()
+    print(game.generate_round_data.DESCRIPTION)
     for i in range(how_many_try):
-        _, question, result = game.generate_round_data()
+        question, result = game.generate_round_data()
         print(f"Question: {question}")
         answer = str(input("Your answer: "))
         if answer == result:

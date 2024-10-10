@@ -3,7 +3,7 @@ from brain_games import constant
 
 
 def generate_round_data():
-    DESCRIPTION = constant.DESCRIPTION_CALC
+    generate_round_data.DESCRIPTION = constant.DESCRIPTION_CALC
     result = 0
     suitable_symbol = ['+', '-', '*']
     random_suitable_symbol = suitable_symbol[random.randint(0, 2)]
@@ -19,4 +19,4 @@ def generate_round_data():
     elif random_suitable_symbol == '*':
         result = first_value * second_value
 
-    return DESCRIPTION, question_for_gamers, str(result)
+    return question_for_gamers, str(result)

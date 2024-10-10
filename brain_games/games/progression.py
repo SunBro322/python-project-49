@@ -3,7 +3,7 @@ from brain_games import constant
 
 
 def generate_round_data():
-    DESCRIPTION = constant.DESCRIPTION_PROGRESSION
+    generate_round_data.DESCRIPTION = constant.DESCRIPTION_PROGRESSION
     array_of_values = []
     for i in range(1, 100):
         array_of_values.append(i)
@@ -28,4 +28,4 @@ def generate_round_data():
 
     question_for_gamers = result
 
-    return DESCRIPTION, question_for_gamers, str(invisible_value)
+    return question_for_gamers, str(invisible_value)
