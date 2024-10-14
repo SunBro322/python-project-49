@@ -1,10 +1,11 @@
 import random
 import math
-from brain_games import constant
+
+DESCRIPTION = "Find the greatest common divisor of given numbers."
 
 
 def generate_round_data():
-    generate_round_data.DESCRIPTION = constant.DESCRIPTION_GCD
+    generate_round_data.DESCRIPTION = DESCRIPTION
     result = 0
     first_value = random.randint(0, 100)
     second_value = random.randint(0, 100)

@@ -1,23 +1,25 @@
 import random
-from brain_games import constant
+import math
+
+DESCRIPTION = ('Answer "yes" if given number is prime. '
+               'Otherwise answer "no".')
 
 
 def is_prime(value):
-    if value == (2 or 3 or 5 or 7):
+    if value <= 1:
         return False
-    elif value > 3 and (value % 2 != 0
-                        and value % 3 != 0
-                        and value % 5 != 0
-                        and value % 7 != 0):
-        return True
-    else:
-        return False
+    number_sqrt = int(math.sqrt(value))
+    divisors = range(2, (number_sqrt + 1))
+    for element in divisors:
+        if value % element == 0:
+            return False
+    return True
 
 
 def generate_round_data():
     value = random.randint(1, 101)
     question_for_gamers = value
-    generate_round_data.DESCRIPTION = constant.DESCRIPTION_PRIME
+    generate_round_data.DESCRIPTION = DESCRIPTION
     result = ''
 
     if is_prime(value):

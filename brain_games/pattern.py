@@ -3,13 +3,13 @@ import prompt
 
 
 def run(game):
-    how_many_try = 3
+    ATTEMPTS_COUNT = 3
     print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     game.generate_round_data()
     print(game.generate_round_data.DESCRIPTION)
-    for i in range(how_many_try):
+    for i in range(ATTEMPTS_COUNT):
         question, result = game.generate_round_data()
         print(f"Question: {question}")
         answer = str(input("Your answer: "))
