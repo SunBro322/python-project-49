@@ -5,7 +5,6 @@ DESCRIPTION = ('Answer "yes" if the number is even, '
 
 
 def generate_round_data():
-    generate_round_data.DESCRIPTION = DESCRIPTION
     random_value = random.randint(1, 100)
     result = ''
     if random_value % 2 == 0:

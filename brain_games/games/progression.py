@@ -5,7 +5,6 @@ DESCRIPTION = ("What number is missing in the "
 
 
 def generate_round_data():
-    generate_round_data.DESCRIPTION = DESCRIPTION
     start = 1
     end = 100
     step = 4

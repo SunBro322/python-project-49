@@ -17,12 +17,10 @@ def is_prime(value):
 
 
 def generate_round_data():
-    value = random.randint(1, 101)
-    question_for_gamers = value
-    generate_round_data.DESCRIPTION = DESCRIPTION
+    question_for_gamers = random.randint(1, 101)
     result = ''
 
-    if is_prime(value):
+    if is_prime(question_for_gamers):
         result = 'yes'
     else:
         result = 'no'

@@ -4,7 +4,6 @@ DESCRIPTION = "What is the result of the expression?"
 
 
 def generate_round_data():
-    generate_round_data.DESCRIPTION = DESCRIPTION
     result = 0
     suitable_symbol = ['+', '-', '*']
     random_suitable_symbol = suitable_symbol[random.randint(0, 2)]
